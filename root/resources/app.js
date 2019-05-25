@@ -40,9 +40,9 @@ function addListAfterClick() {
 
 function addListAfterKeypress(event) {
   if (inputLength() > 0 && event.which === 13) {
-    createListElement()
-  }  
+    createListElement();
+  }
 }
 
 enterButton.addEventListener("click", addListAfterClick);
-input.addEventListener("keypress", addListAfterKeypress)
+input.addEventListener("keypress", addListAfterKeypress);
